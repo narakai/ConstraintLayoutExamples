@@ -23,13 +23,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <androidx.core.widget.NestedScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+<!--    <androidx.core.widget.NestedScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        app:layout_behavior="@string/appbar_scrolling_view_behavior">-->
 
-        <include layout="@layout/lots_of_cards" />
-    </androidx.core.widget.NestedScrollView>
+<!--        <include layout="@layout/lots_of_cards" />-->
+<!--    </androidx.core.widget.NestedScrollView>-->
 
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appbar_layout"

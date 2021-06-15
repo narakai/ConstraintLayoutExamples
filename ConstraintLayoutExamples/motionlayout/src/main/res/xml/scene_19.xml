@@ -23,8 +23,8 @@
 
         <OnSwipe
             motion:dragDirection="dragUp"
-            motion:touchAnchorId="@+id/motionLayout"
-            motion:touchAnchorSide="bottom" />
+            motion:touchAnchorId="@+id/scrollable"
+            motion:touchAnchorSide="top" />
     </Transition>
 
     <ConstraintSet android:id="@+id/start">

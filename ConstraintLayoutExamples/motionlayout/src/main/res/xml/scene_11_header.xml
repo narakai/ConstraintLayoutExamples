@@ -31,7 +31,7 @@
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="parent"
-            motion:layout_constraintVertical_bias="0.38" />
+             />
 
         <Constraint
             android:id="@id/name"
@@ -45,7 +45,6 @@
             motion:autoSizeTextType="uniform"
             motion:layout_constraintBottom_toTopOf="@+id/textView"
             motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintHorizontal_bias="0.5"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toBottomOf="@+id/icon" />
 
@@ -59,10 +58,8 @@
             android:background="@drawable/circle"
             motion:layout_constraintBottom_toTopOf="@+id/name"
             motion:layout_constraintEnd_toEndOf="parent"
-            motion:layout_constraintHorizontal_bias="0.5"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="parent"
-            motion:layout_constraintVertical_bias="0.24000001"
             motion:layout_constraintVertical_chainStyle="packed"
             motion:srcCompat="@drawable/roard" />
 
@@ -92,7 +89,7 @@
             motion:layout_constraintEnd_toEndOf="parent"
             motion:layout_constraintStart_toStartOf="parent"
             motion:layout_constraintTop_toTopOf="parent"
-            motion:layout_constraintVertical_bias="0.38" />
+            />
 
         <Constraint
             android:id="@id/name"

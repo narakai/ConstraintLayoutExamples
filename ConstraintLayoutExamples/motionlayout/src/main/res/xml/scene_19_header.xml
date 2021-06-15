@@ -20,10 +20,10 @@
         motion:constraintSetStart="@+id/start"
         motion:duration="1000"
         motion:motionInterpolator="linear">
-        <OnSwipe
-            motion:dragDirection="dragUp"
-            motion:touchAnchorId="@+id/background"
-            motion:touchAnchorSide="bottom" />
+<!--        <OnSwipe-->
+<!--            motion:dragDirection="dragUp"-->
+<!--            motion:touchAnchorId="@+id/background"-->
+<!--            motion:touchAnchorSide="bottom" />-->
 
     </Transition>
     <ConstraintSet android:id="@+id/start">
@@ -32,8 +32,6 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="1.0"
-            android:scaleX="1.1"
-            android:scaleY="1.1"
             motion:layout_constraintTop_toTopOf="parent" />
         <Constraint
             android:id="@id/label"
@@ -44,6 +42,7 @@
             android:translationY="8dp"
             motion:layout_constraintBottom_toBottomOf="parent"
             motion:layout_constraintStart_toStartOf="parent" />
+<!--        layout_constraintBaseline_toBaselineOf 这个确定了底线方向-->
         <Constraint
             android:id="@id/sublabel"
             android:layout_width="wrap_content"
